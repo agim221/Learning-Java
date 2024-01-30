@@ -1,0 +1,11 @@
+package main;
+
+import parent.Parent;
+
+public class Main {
+	public static void main(String[] args) {
+		Parent parent = new Parent("Agim");
+		
+		System.out.println(parent.getName());
+	}
+}

@@ -1,0 +1,16 @@
+package parent;
+
+public class Parent {
+	private String privateName;
+	protected String protectName;
+	String name;
+	public String publicName;
+		
+	public Parent(String privateName, String protectName, String name, String publicName) {
+		super();
+		this.privateName = privateName;
+		this.protectName = protectName;
+		this.name = name;
+		this.publicName = publicName;
+	}
+}

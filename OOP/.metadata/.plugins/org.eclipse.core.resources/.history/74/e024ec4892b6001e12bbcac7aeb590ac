@@ -1,0 +1,15 @@
+package main;
+
+import parent.Parent;
+import parent.Parent.Inner;
+
+import static parent.Parent.NAME;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		TestRecord test = new TestRecord("Agim", 2);
+		
+		System.out.println(test);
+	}
+}

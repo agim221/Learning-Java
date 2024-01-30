@@ -1,0 +1,30 @@
+package parent;
+
+public class Parent {
+	public static final String NAME = "Agim";
+	
+	public static String getName() {
+		return NAME;
+	}
+	
+	public static class Inner {
+		public static final String name = "Inner";
+		private String secondName;
+		
+		public Inner(String secondName) {
+			this.setSecondName(secondName);
+		}
+		
+		public String getName() {
+			return name;
+		}
+
+		public String getSecondName() {
+			return secondName;
+		}
+
+		public void setSecondName(String secondName) {
+			this.secondName = secondName;
+		}
+	}
+}

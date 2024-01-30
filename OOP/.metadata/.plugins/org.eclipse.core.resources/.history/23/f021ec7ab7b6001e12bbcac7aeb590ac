@@ -1,0 +1,14 @@
+package exception;
+
+public class ValidationUtil {
+	public static void main(String[] args) throws TestException {
+		
+		Account account = new Account("Agim", "2");
+	
+		try {
+			test.returnException(account);
+		} except (Throwable e) {
+			e.printStackTrace();
+		}
+	}
+}

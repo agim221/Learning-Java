@@ -1,0 +1,10 @@
+package exception;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+
+@Retention()
+@Target
+public @interface AnnotationTest {
+
+}

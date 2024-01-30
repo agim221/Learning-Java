@@ -1,0 +1,13 @@
+package exception;
+
+public class test {
+	public static void returnException(Account account) throws Throwable {
+		if(account.getName() == null) {
+			throw new Throwable();
+		} else if(account.getPassword() == null) {
+			throw new Throwable();
+		} else {
+			throw new Throwable();
+		}
+	}
+}

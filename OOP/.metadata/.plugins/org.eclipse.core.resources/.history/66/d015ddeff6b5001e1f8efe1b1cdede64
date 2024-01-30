@@ -1,0 +1,12 @@
+package child;
+
+import parent.Parent;
+
+public class Child extends Parent{
+	public String name;
+	
+	public Child(String name) {
+		super("Mamang");
+		this.name = name;
+	}
+}

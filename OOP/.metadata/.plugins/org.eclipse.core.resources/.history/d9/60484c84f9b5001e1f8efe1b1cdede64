@@ -1,0 +1,23 @@
+package main;
+
+public class Main {
+	public static void main(String[] args) {
+		HelloWorld hello = new HelloWorld() {
+			public void helloWorld() {
+				System.out.println("Hello World");	
+			}
+
+			public void sayHello(String name) {
+				System.out.println("Hello " + name);
+			}
+			
+			public class Test {
+				
+			}
+		};
+		
+		hello.helloWorld();
+		hello.sayHello("Agim");
+		
+	}
+}

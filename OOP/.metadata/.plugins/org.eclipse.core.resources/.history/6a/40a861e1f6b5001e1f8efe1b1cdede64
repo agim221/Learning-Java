@@ -1,0 +1,9 @@
+package child;
+
+public class Child {
+	public String name;
+	
+	public Child(String name) {
+		this.name = name;
+	}
+}

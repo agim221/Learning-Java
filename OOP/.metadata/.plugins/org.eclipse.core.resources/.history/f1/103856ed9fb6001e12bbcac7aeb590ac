@@ -1,0 +1,16 @@
+package exception;
+
+public class ValidationUtil {
+	public static void main(String[] args) {
+		
+		Account account = new Account("Agim", null);
+		
+		try {
+			if(account.getName().equals(null) || account.getPassword().equals(null)) {
+				throw new TestException("Nilai ada yang null");
+			}
+		} catch(TestException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

@@ -1,0 +1,29 @@
+package parent;
+
+public class Parent {
+	public static String NAME;
+	
+	public Parent(String name) {
+		Parent.NAME = name;
+	}
+
+	public static String getName() {
+		return NAME;
+	}
+	
+	public static class Inner {
+		private String name;
+
+		public Inner(String name) {
+			this.name = name;
+		}
+		
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+	}
+}

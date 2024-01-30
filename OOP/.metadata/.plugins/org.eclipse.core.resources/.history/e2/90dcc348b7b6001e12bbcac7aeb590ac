@@ -1,0 +1,13 @@
+package exception;
+
+public class test {
+	public static void returnException(Account account) throws TestException {
+		if(account.getName() == null) {
+			throw new TestException("Nick jangan kosong");
+		} else if(account.getPassword() == null) {
+			throw new TestException("Password jangan kosong");
+		} else {
+			throw new TestException("Login success");
+		}
+	}
+}

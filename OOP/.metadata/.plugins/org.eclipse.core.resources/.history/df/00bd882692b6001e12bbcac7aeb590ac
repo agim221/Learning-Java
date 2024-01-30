@@ -1,0 +1,14 @@
+package main;
+
+public record TestRecord(String name, int value) {
+
+	public String name() {
+		return name;
+	}
+
+	public int value() {
+		return value;
+	}
+
+	
+}

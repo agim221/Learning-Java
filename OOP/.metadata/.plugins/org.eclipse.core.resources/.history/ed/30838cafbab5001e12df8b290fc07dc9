@@ -1,0 +1,17 @@
+package child;
+
+public interface Test {
+	public static final String name = "";
+	
+	public void methodTest();
+	
+	void methdodTest2();
+	
+	default public void printHello() {
+		System.out.println("Hello");
+	}
+	
+	static public void printHellow() {
+		System.out.println("Hello");
+	}
+}

@@ -1,0 +1,16 @@
+package child;
+
+public class Child extends Parent  {
+	private String privateName;
+	protected String protectName;
+	String name;
+	public String publicName;
+	
+	public Child(String privateName, String protectName, String name, String publicName) {
+		this.privateName = privateName;
+		this.protectName = protectName;
+		this.name = name;
+		this.publicName = publicName;
+	}
+
+}

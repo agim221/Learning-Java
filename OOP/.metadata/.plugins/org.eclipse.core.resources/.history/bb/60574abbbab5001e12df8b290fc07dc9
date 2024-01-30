@@ -1,0 +1,22 @@
+package child;
+
+import parent.Parent;
+
+public class Child extends Parent implements Test {	
+	public Child(String privateName, String protectName, String name, String publicName) {
+		super(privateName, protectName, name, publicName);
+	}
+
+	@Override
+	public void methodTest() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void methdodTest2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

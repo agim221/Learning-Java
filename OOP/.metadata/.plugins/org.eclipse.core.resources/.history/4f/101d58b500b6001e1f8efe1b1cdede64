@@ -1,0 +1,22 @@
+package parent;
+
+public class Parent {
+	public static final String NAME = "Agim";
+	
+	public static String getName() {
+		return NAME;
+	}
+	
+	public static class Inner {
+		private static final String name = "Inner";
+		private String secondName;
+		
+		Inner(String secondName) {
+			this.secondName = secondName;
+		}
+		
+		public String getName() {
+			return name;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package exception;
+
+public class ValidationUtil {
+	public static void main(String[] args) {
+		
+		Account account = new Account("Agim", null);
+		
+		try {
+			
+		} catch(TestException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

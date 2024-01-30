@@ -1,0 +1,26 @@
+package main;
+
+public enum TestEnum {
+	HANDPHONE("handphone"),
+	ALAT("alat"),
+	GELAS("gelas"), 
+	PIRING("piring");
+	
+	private String name;
+	
+	TestEnum(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	private TestEnum() {
+		this.name = "Agim";
+	}
+}

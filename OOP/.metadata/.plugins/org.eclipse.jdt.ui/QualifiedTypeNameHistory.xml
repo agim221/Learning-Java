@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="child.Test"/>
+    <fullyQualifiedTypeName name="main.Maininterface"/>
+    <fullyQualifiedTypeName name="main.HelloWorld"/>
+    <fullyQualifiedTypeName name="parent.Parent"/>
+    <fullyQualifiedTypeName name="main.TestRecord"/>
+    <fullyQualifiedTypeName name="main.TestInterface"/>
+    <fullyQualifiedTypeName name="main.TestEnum"/>
+    <fullyQualifiedTypeName name="exception.Account"/>
+    <fullyQualifiedTypeName name="exception.TestException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="child.Child"/>
+    <fullyQualifiedTypeName name="parent.Parent.Inner"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="exception.test"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="javax.swing.SwingWorker.StateValue"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="exception.AnnotationTest"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="programmer.zaman.now.annotation.NotBlank"/>
+</qualifiedTypeNameHistroy>

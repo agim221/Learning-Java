@@ -1,0 +1,6 @@
+package main;
+
+public interface HelloWorld {
+	void helloWorld();
+	void sayHello(String name);
+}

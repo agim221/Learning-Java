@@ -1,0 +1,10 @@
+package exception;
+
+public class ValidationUtil {
+	public static void main(String[] args) {
+		
+		Account account = new Account("Agim", "2");
+	
+		test.returnException(account);	
+	}
+}
