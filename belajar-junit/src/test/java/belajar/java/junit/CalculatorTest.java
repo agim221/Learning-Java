@@ -1,9 +1,14 @@
 package belajar.java.junit;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.*;
 import org.opentest4j.TestAbortedException;
 
-@DisplayNameGeneration(value = CustomNameTest.class)
+//@DisplayNameGeneration(value = CustomNameTest.class)
+//@Tags(
+//        @Tag(value = "calculator")
+//)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class CalculatorTest {
     Calculator calculator = new Calculator();
 
@@ -28,6 +33,7 @@ public class CalculatorTest {
     }
 
     @Test
+//    @Order(1)
 //    @DisplayName("Test pertambahan")
     void addTest() {
         int result  = calculator.add(3, 3);
@@ -64,4 +70,6 @@ public class CalculatorTest {
     void testAssumptions() {
         Assumptions.assumeFalse("DEV".equals(System.getenv("PROFILE")));
     }
+
+
 }
